@@ -4,12 +4,14 @@ from math import sin
 # >>> 0
 # -----------
 import math
-
-h = (math.pi/2 - 0) / 100
+a = 0
+b = math.pi/2
+n = 100
+h = (b - a) / n
 line = 0
 
-for i in range(1, 100):
-    x_i = 0 + i * h
+for i in range(1, n):
+    x_i = a + i * h
     Y = sin(x_i)
     line = line + 2*Y
 
