@@ -18,3 +18,4 @@ if prime(b):
     print("bは素数です")
 else:
     print("bは素数ではありません")
+
