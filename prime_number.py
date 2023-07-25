@@ -1,7 +1,7 @@
 a = int(input("aの値を入力: "))
 b = int(input("bの値を入力: "))
 
-# TODO
+# TO DO
 def prime(number):
     number = int(number)
     if number == 1:
@@ -18,4 +18,3 @@ if prime(b):
     print("bは素数です")
 else:
     print("bは素数ではありません")
-
